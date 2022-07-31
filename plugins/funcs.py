@@ -59,8 +59,7 @@ and Rename Audio/Video/Document Files.
 async def start(client , m):
     """Send a message when the command /start is issued."""
     await m.reply_text(text=f"**I'm a Rename and Convert Bot
-Just send me any media to change file name.
-**\n\nSee Use /help command for more details !")
+Just send me any media to change file name.**\n\nSee Use /help command for more details!")
 
     
 @Client.on_message(filters.command(["help"]))
